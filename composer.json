@@ -1,5 +1,5 @@
 {
-  "name": "cimmwolf/metric.class",
+  "name": "cimmwolf/metric-helper",
   "description": "This class helps to link PHP parameters and JavaScript metric in one system without global JS variables",
   "minimum-stability": "stable",
   "license": "MIT",
