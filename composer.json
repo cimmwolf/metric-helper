@@ -1,7 +1,7 @@
 {
   "name": "cimmwolf/metric.class",
   "description": "This class helps to link PHP parameters and JavaScript metric in one system without global JS variables",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
