@@ -8,6 +8,7 @@ Now it supports Yandex.Metrika counter only.
 ### Methods
    * addParam(name, value) — add parameter `name` with `value` if parameters does not exists;
    * deleteParam(name) — delete parameter `name`;
+   * getParams() — return json encoded parameters;
    * yandexMetrika(id, settings, async, xml) — return js metric code with set parameters.
 
 
