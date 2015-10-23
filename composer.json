@@ -1,0 +1,18 @@
+{
+  "name": "cimmwolf/metric.class",
+  "description": "This class helps to link PHP parameters and JavaScript metric in one system without global JS variables",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Beliaev",
+      "email": "cimmwolf@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"DenisBeliaev\\": "src"}
+  },
+  "require": {
+    "phpunit/phpunit": "^4.0.6"
+  }
+}
