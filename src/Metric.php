@@ -36,6 +36,14 @@ class Metric extends Singleton
         unset($this->params[$name]);
     }
 
+    /** Returns parameters as json string.
+     * @return string
+     */
+    public function getParams()
+    {
+        return json_encode($this->params, JSON_NUMERIC_CHECK);
+    }
+
     /** Creates Yandex.Metrika code for insertion into HTML
      * @param $id int Yandex.Metrika counter ID
      * @param array $settings
