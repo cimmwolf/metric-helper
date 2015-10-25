@@ -80,7 +80,7 @@ class Metric extends Singleton
             $script = '
             (function (d, w, c) {
                 (w[c] = w[c] || []).push(function() {
-                    ' . $script . '
+                    ' . str_replace('var yaCounter', 'yaCounter', $script) . '
                 });
                 var n = d.getElementsByTagName("script")[0],
                     s = d.createElement("script"),

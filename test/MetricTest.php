@@ -62,6 +62,7 @@ class MetricTest extends PHPUnit_Framework_TestCase
         $this->assertContains('yaCounter' . $this->yaCounterId, $code);
         $this->assertContains('"id":' . $this->yaCounterId, $code);
         $this->assertContains('mc.yandex.ru/watch/' . $this->yaCounterId, $code);
+        $this->assertNotContains('var yaCounter', $code);
 
         $code = $Metric->yandexMetrika($this->yaCounterId, [], false, true);
         $this->assertContains('src="https://mc.yandex.ru/metrika/watch.js"', $code);
