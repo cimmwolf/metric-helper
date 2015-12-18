@@ -23,7 +23,7 @@ class Metric extends Singleton
      */
     public function addParam($name, $value)
     {
-        if (isset($this->params[$name]))
+        if (isset($this->params[$name]) AND $this->params[$name] != $value)
             throw new \InvalidArgumentException;
         $this->params[$name] = $value;
     }
